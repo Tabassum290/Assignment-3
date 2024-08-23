@@ -36,8 +36,8 @@
     }
   </script>
 </head>
-<body class="manrope-normal">
-    <header class="container mx-auto header lg:p-8 p-6">
+<body class="container mx-auto manrope-normal">
+    <header class="header lg:p-8 p-6">
         <!-- Navbar part -->
         <div class="navbar">
             <div class="navbar-start">
@@ -66,7 +66,7 @@
           </div>
 <!-- Banner Part -->
 <div class="p-6">
-    <img class="items-center lg:ml-[480px]" src="./assets/banner.png" alt="">
+    <img class="items-center lg:ml-[440px]" src="./assets/banner.png" alt="">
     <h3 class="text-center items-center lg:text-[64px] font-bold text-[28px] md:text-[36px] text-black">A barn house of this design has a striking appearance</h3>
     <p class="text-center items-center font-semibold text-[18px] text-[#494949]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal<br> accents, and large windows that flood the space with natural light.</p>
     <a class="btn lg:w-[210px] lg:h-[56px] w-full lg:bg-[#cff3a7] bg-[#cff3a7] bg-transparent-50% rounded-full font-[800] text-[20px] hover:bg-green-300 lg:ml-[640px] mt-8">View Details
@@ -74,7 +74,7 @@
       </a>
 </div>
 </header>
-<main class="container mx-auto bg-gray-100">
+<main class=" bg-gray-100">
   <!-- About US-->
 <section class=" mt-16 p-6 lg:p-8 gap-4 bg-gray-100">
   <!-- Left Part -->
@@ -173,9 +173,12 @@
 <!-- 2nd row -->
  <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 my-8">
   <!-- 1st image -->
-<div class="border-2 p-6 rounded-xl">
+<div class="border-2 p-6 rounded-xl hidden lg:block">
 <img class="w-full h-full" src="./assets/img3.png" alt="">
 </div>
+<div class="border-2 p-6 rounded-xl block lg:hidden">
+  <img class="w-full h-full" src="./assets/img5.png" alt="">
+  </div>
 <!-- 2nd image -->
 <div class="lg:flex justify-between lg:col-span-2 border-2 p-4 rounded-xl">
   <div>
@@ -190,6 +193,9 @@
    </div>
 </div>
 <!-- 3rd image -->
+<div class="border-2 p-6 rounded-xl block lg:hidden">
+  <img class="w-full h-full" src="./assets/img3.png" alt="">
+  </div>
 <div class="border-2 p-6 rounded-xl">
   <img class="w-full h-full" src="./assets/img5.png" alt="">
   </div>

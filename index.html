@@ -22,7 +22,9 @@
 }
 .connect{
   background-image: url(./assets/bg.jpg);
-  opacity: 9;
+  opacity: 12;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>
 <script>
@@ -115,7 +117,7 @@
     </div>
     <!-- right part -->
      <div>
-      <img class="lg:px-12 object-fill" src="./assets/Rectangle.png" alt="">
+      <img class="lg:px-12  object-contain" src="./assets/Rectangle.png" alt="">
      </div>
   </div>
 </section>
@@ -210,8 +212,8 @@
 </section>
 <!-- Extra-Section -->
  <!-- How We can help -->
- <section class="lg:-mt-12 p-6 gap-4 lg:p-8">
-  <h3 class="text-center items-center lg:text-5xl text-3xl  font-bold">See How We Can Help</h3>
+ <section class="lg:mt-12 p-6 gap-4 lg:p-8">
+  <h3 class="text-center items-center lg:text-5xl text-3xl mb-8 font-bold">See How We Can Help</h3>
   <div class="grid grid-cols-1 lg:grid-cols-3 mt-8 gap-4">
     <div class="border-2 p-4 rounded-xl gap-4 bg-white">
       <img class="w-full" src="./assets/article1.png" alt="">
@@ -245,8 +247,8 @@
       <input class="w-full lg:w-3/2 p-4 rounded-full" type="text" placeholder="First Name*">
       <input class="w-full lg:w-3/2 p-4 rounded-full" type="text"  placeholder="Last Name*">
     <input class="w-full lg:w-3/2 p-4 rounded-full" type="number" placeholder="Phone Name*">
-    <input class="w-full lg:w-3/2 py-4 rounded-full" type="email"  placeholder="Email Name*">
-      <input class="w-full h-[240px] p-4 rounded-lg col-span-2" type="text"  placeholder="Write Your message here">
+    <input class="w-full lg:w-3/2 p-4 rounded-full" type="email"  placeholder="Email Name*">
+      <textarea class="w-full h-[210px] p-4 rounded-2xl col-span-2 resize-none" name="text" id="" placeholder="Write Your message here"></textarea>
       <a class="btn w-full bg-[#ABEF5F] rounded-full font-[800] text-[20px] hover:bg-green-400 col-span-2">Send Mail
       <div class="text-[30px] text-black -rotate-45"><i class="fa-solid fa-circle-arrow-right"></i></div>
       </a>

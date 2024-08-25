@@ -41,7 +41,7 @@
     }
   </script>
 </head>
-<body class="md:container mx-auto manrope-normal">
+<body class="container mx-auto manrope-normal">
     <header class="header lg:p-8 p-6">
         <!-- Navbar part -->
         <div class="navbar">
@@ -71,12 +71,14 @@
           </div>
 <!-- Banner Part -->
 <div class="p-6">
-    <img class="items-center lg:ml-[440px]" src="./assets/banner.png" alt="">
+   <div class="flex justify-center">
+    <img src="./assets/banner.png" alt="">
+   </div>
     <h3 class="text-center items-center lg:text-[64px] font-bold text-[28px] md:text-[36px] text-black">A barn house of this design has a striking appearance</h3>
     <p class="text-center items-center font-semibold text-[18px] text-[#494949]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal<br class="hidden lg:block"> accents, and large windows that flood the space with natural light.</p>
     <div class="flex justify-center">
-    <a class="btn lg:w-1/6 w-full lg:bg-[#cff3a7] bg-[#cff3a7] rounded-full font-[800] text-[20px] hover:bg-green-300 mt-8">View Details
-        <div class="text-[30px] text-[#ABEF5F] -rotate-45"><i class="fa-solid fa-circle-arrow-right"></i></div>
+    <a class="btn lg:w-1/5 w-full lg:bg-[#cff3a7] bg-[#cff3a7] rounded-full font-[800] text-[18px] text-center hover:bg-green-300 mt-8">View Details
+        <div class="text-[30px] text-[#ABEF5F] -rotate-45"><i class="fa-solid fa-circle-arrow-right text-center"></i></div>
       </a>
       </div>
 </div>
@@ -90,7 +92,7 @@
     <!-- left part -->
     <div>
     <div class="flex justify-center lg:flex-none lg:block">
-      <a class="btn lg:w-1/4 lg:p-4 p-2 w-3/4 bg-white rounded-full font-semibold text-[18px]">
+      <a class="btn lg:w-1/3 lg:p-4 p-2 w-3/4 bg-white rounded-full font-semibold text-[18px] text-center">
         <div><i class="fa-solid fa-arrow-right"></i></div>About Us</a>
     </div>
   <h3 class="lg:text-5xl font-[800] text-3xl text-center lg:text-left my-4 lg:my-6 ">We design thoughtful, liveable spaces</h3>
@@ -117,7 +119,7 @@
     </div>
     <!-- right part -->
      <div>
-      <img class="lg:px-12  object-contain" src="./assets/Rectangle.png" alt="">
+      <img class="lg:px-12 rounded-6xl lg:w-full lg:h-full " src="./assets/Rectangle.png" alt="">
      </div>
   </div>
 </section>
@@ -156,7 +158,7 @@
 <!-- Challenge Part -->
   <section class="lg:mt-16 p-6 lg:p-8 gap-4 lg:bg-white">
     <div class="flex justify-center">
-      <a class="btn lg:w-1/5 p-2  w-full items-center bg-[#9bed3d33] rounded-full font-semibold text-[18px]">
+      <a class="btn lg:w-1/4 w-full bg-[#9bed3d33] rounded-full font-semibold text-[18px]">
         <div><i class="fa-solid fa-arrow-right"></i></div>Explore our Latest works</a>
     </div>
         <h3 class="text-center items-center text-4xl lg:text-5xl font-bold text-black my-6">Our Latest Portfolio</h3>
@@ -217,21 +219,26 @@
   <div class="grid grid-cols-1 lg:grid-cols-3 mt-8 gap-4">
     <div class="border-2 p-4 rounded-xl gap-4 bg-white">
       <img class="w-full" src="./assets/article1.png" alt="">
-      <h3 class="lg:text-center text-left text-3xl font-bold my-4">Buy A Home</h3>
-      <p class="font-semibold text-left lg:text-center">With over 1 million+ homes for sale on the website,can match you with a house you will want to call home.</p>
-      <a class="btn font-[800] text-[20px] bg-blue-900 text-white my-4 lg:ml-[140px] hover:bg-blue-500">Find a home</a>
+      <h3 class="text-center text-3xl font-bold my-4">Buy A Home</h3>
+      <p class="font-semibold text-center">With over 1 million+ homes for sale on the website,can match you with a house you will want to call home.</p>
+      <div class="flex justify-center">
+        <a class="btn font-[800] text-[20px] bg-blue-900 text-white my-4 hover:bg-blue-500">Find a home</a>
+      </div>
     </div>
     <div class="border-2 p-4 rounded-xl gap-4 bg-white">
       <img class="w-full" src="./assets/article2.png" alt="">
-      <h3 class="lg:text-center text-left text-3xl font-bold my-4">Rent A Home</h3>
-      <p class="font-semibold lg:text-center text-left">With 35+ filters and custom keyword search,can help you easily find a home or apartment for rent that you'll love.</p>
-      <a class="btn font-[800] text-[20px] bg-blue-900 text-white my-4 items-center lg:ml-[140px] hover:bg-blue-500">Find a rental</a>
+      <h3 class="text-center text-3xl font-bold my-4">Rent A Home</h3>
+      <p class="font-semibold text-center">With 35+ filters and custom keyword search,can help you easily find a home or apartment for rent that you'll love.</p>
+     <div class="flex justify-center">
+      <a class="btn font-[800] text-[20px] bg-blue-900 text-white my-4 items-center hover:bg-blue-500">Find a rental</a>
+     </div>
     </div>
     <div class="border-2 p-4 rounded-xl gap-4 bg-white">
       <img class="w-full" src="./assets/article3.png" alt="">
-      <h3 class="lg:text-center text-left text-3xl font-bold my-4">See Neighborhoods</h3>
-      <p class="font-semibold lg:text-center text-left">With more neighborhood insights than any other website, we've captured the color and diversity of communities..</p>
-      <a class="btn font-[800] text-[20px] bg-blue-900 text-white my-4 items-center lg:ml-[140px] hover:bg-blue-500">Explore More..</a>
+      <h3 class="text-center text-3xl font-bold my-4">See Neighborhoods</h3>
+      <p class="font-semibold text-center">With more neighborhood insights than any other website, we've captured the color and diversity of communities..</p>
+    <div class="flex justify-center"> 
+       <a class="btn font-[800] text-[20px] bg-blue-900 text-white my-4 hover:bg-blue-500">Explore More..</a></div>
     </div>
   </div>
  </section>
@@ -263,14 +270,14 @@
     </div>
     <p class="text-center items-center font-semibold text-[18px] text-[#494949] mb-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal<br class="hidden lg:block"> accents, and large windows that flood the space with natural light.</p>
     <div class="grid grid-cols-1 lg:grid-cols-5 gap-4 text-white mx-auto lg:w-3/4 lg:my-12 font-semibold text-center">
-      <p>Home</p>
-      <p>Service</p>
-      <p>Portfolio</p>
-      <p>Blogs</p>
-      <p>Contact Us</p>
+      <p><a class="hover:text-green-300">Home</a></p>
+      <p><a class="hover:text-green-300">Service</a></p>
+      <p><a class="hover:text-green-300">Portfolio</a></p>
+      <p><a class="hover:text-green-300">Blogs</a></p>
+      <p><a class="hover:text-green-300">Contact Us</a></p>
     </div>
   <div class="flex justify-center my-8 text-center">
-    <a class="btn lg:w-1/6 w-3/4 bg-[#ABEF5F] rounded-full font-bold text-[20px] hover:bg-green-300">Book Consult
+    <a class="btn lg:w-1/5 w-3/4 bg-[#ABEF5F] rounded-full font-bold text-[20px] hover:bg-green-300">Book Consult
       <div class="text-[30px] text-black -rotate-45"><i class="fa-solid fa-circle-arrow-right"></i></div>
     </a>
   </div>
